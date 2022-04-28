@@ -172,3 +172,72 @@ button:hover{
     font-size: 18px;
     margin-bottom: 20px;
 }
+
+.card-container{
+    display: flex;
+    grid-template-columns: 420px 420px;
+}
+
+.card-container h4{
+    padding-top: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+    font-family: "Montserrat" , sans-serif;
+}
+
+.card-content{
+    background: burlywood;
+    width: 100vh;
+    height: 800;
+}
+
+.card-content h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 100px 0 25px 0;
+    font-weight: 500;
+}
+
+.form-row{
+    display: grid;
+    width: 60%;
+    margin: 0 auto;
+}
+
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 9px 0px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Montserrat", "sans-serif";
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    font-weight: 300;
+}
+
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color:  grey;
+}
+
+form input[type = submit]{
+    color: white;
+    background: #88B04B;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type = submit]:hover{
+    background: black;
+}
+
+.button_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

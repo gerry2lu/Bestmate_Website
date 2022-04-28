@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bestmate | Bookings</title>
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <nav>
+            <div class='heading'>
+                <h4>Bestmate</h4>
+            </div>
+            <ul class='nav-links'>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a class='active' href="booking.html">Book</a></li>
+                <li><a href="helpdesk.html">HelpDesk</a></li>
+                <li><a href="privacypolicy.html">PrivacyPolicy</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="login_signup.html">Login/Signup</a></li>
+            </ul>
+        </nav>
+        <section class = "card-container">
+            <p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26502.202618774074!2d151.18727841323687!3d-33.869680611968725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3f3298a729%3A0xef50fa5572780602!2sSydney%20CBD%2C%20NSW!5e0!3m2!1sen!2sau!4v1651153580773!5m2!1sen!2sau" 
+                width="800" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+            <div class = "card-content">
+                <h1>Make Your Reservation</h1>
+                <form>
+                    <div class = "form-row">
+                        <select name = "days">
+                            <option value = "day-select">Select Day</option>
+                            <option value = "monday">Monday</option>
+                            <option value = "tuesday">Tuesday</option>
+                            <option value = "wednesday">Wednesday</option>
+                            <option value = "thursday">Thursday</option>
+                            <option value = "friday">Friday</option>
+                            <option value = "saturday">Saturday</option>
+                            <option value = "Sunday">Sunday</option>
+                        </select>
+
+                        <select name = "hours">
+                            <option value = "hour-select">Select Check In Hour</option>
+                            <option value = "10">10:00</option>
+                            <option value = "10">12:00</option>
+                            <option value = "10">14:00</option>
+                            <option value = "10">16:00</option>
+                            <option value = "10">18:00</option>
+                        </select>
+
+                        <input type = "text" placeholder="Full Name">
+                        <input type = "text" placeholder="Phone Number">
+
+                        <input type = "text" placeholder="Pet Type">
+                        <input type = "text" placeholder="Hours stayed">
+
+                        <div class = "form-row">
+                            <input type = "submit" value = "BOOK STAY">
+                        </div>
+                    </div>
+                </form>
+                <h4>Already a member?</h4>
+                <div class="button_login">
+                    <button type="button" onclick="window.location.href='login_signup.html'"><span></span>Login Here!</button>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
