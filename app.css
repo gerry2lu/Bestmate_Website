@@ -114,6 +114,61 @@ button:hover span{
 }
 
 button:hover{
-    border: none;
     color: black;
+}
+
+.about{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #88B04B;
+}
+
+.about img{
+    height: auto;
+    width: 750px;
+    padding-right: 100px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 20%;
+
+}
+
+.about-us-text{
+    width: 550px;
+}
+
+.main{
+    height: 71vh;
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateY(0%);
+}
+
+.about-us-text h1{
+    color: bisque;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.about-us-text h5{
+    color: bisque;
+    font-family: "Montserrat" , sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.about-us-text p{
+    color: bisque;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
